@@ -130,3 +130,69 @@
     background: yellow;
     border:1px solid yellow;
 }
+.cards__card{
+    background-color: #006241;
+    margin-top: 15px;
+    position: relative;
+    width: 85%;
+
+}
+.cards{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffff;
+}
+.cards__card-img{
+    width: 100%;
+}
+.cards__card-title span{
+    color: yellow;
+}
+.cards__card-description{
+    font-size: 15px;
+    margin: 8px 5px;
+}
+.cards__card-btn{
+    background: inherit;
+    border: 1px solid #ffff;
+    color: #ffff;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 5px;
+    transition: all 0.5s;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.cards__card-btn:hover {
+    background: yellow;
+    border:1px solid yellow;
+}
+.cards__card-container-text{
+    padding: 0px 5px;
+}
+.cards__card-container-btn{
+    display: flex;
+    flex-direction: column;
+}
+.cards__card-container-btn a{
+    width: 100%;
+    margin: 7.5px 0px 5px;
+    text-align: center;
+}
+.cards__card-circle{
+    background-color: yellow;
+    width: 65px;
+    height: 65px;
+    color: #171817;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
