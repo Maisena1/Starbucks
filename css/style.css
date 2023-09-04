@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+*::selection{
+    background: #00620d
+;
+    color: #ffff;
+}
+.header {
+    background-color: #006241;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: -1px 7px 10px 1px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header__container-logo{
+    width:25px;
+}
+.header__nav, .header__container-usuarios {
+    display: none;
+    
+}
+.header__container-usuario-mobile{
+    color: #ffff;
+    font-size: 25px;
+    width: 30px;
+}
